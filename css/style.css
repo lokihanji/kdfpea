@@ -179,7 +179,7 @@ nav {
   border-radius: 36px;
   background:
     linear-gradient(rgba(9, 30, 25, 0.08), rgba(9, 30, 25, 0.5)),
-    url('../img/kappaphycus_seaweed_harvest.png');
+    url('../img/kappaphycus_seaweed_harvest.png?v=1.0.9');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -296,7 +296,7 @@ section {
   border-radius: 34px;
   background:
     linear-gradient(rgba(13, 138, 106, 0.05), rgba(13, 138, 106, 0.35)),
-    url('../img/kappaphycus_dripping_extraction.png');
+    url('../img/kappaphycus_dripping_extraction.png?v=1.0.9');
   background-size: cover;
   background-position: center;
   box-shadow: 0 24px 60px rgba(9, 30, 25, 0.15);
@@ -518,20 +518,20 @@ section {
 }
 
 .gallery-item:nth-child(1) {
-  background-image: url('../img/gallery_seaweed_drying.png');
+  background-image: url('../img/gallery_seaweed_drying.png?v=1.0.9');
   grid-row: span 2;
 }
 
 .gallery-item:nth-child(2) {
-  background-image: url('../img/gallery_rice_spray.png');
+  background-image: url('../img/gallery_rice_spray.png?v=1.0.9');
 }
 
 .gallery-item:nth-child(3) {
-  background-image: url('../img/gallery_pechay_growth.png');
+  background-image: url('../img/gallery_pechay_growth.png?v=1.0.9');
 }
 
 .gallery-item:nth-child(4) {
-  background-image: url('../img/gallery_cooperative_work.png');
+  background-image: url('../img/gallery_cooperative_work.png?v=1.0.9');
   grid-column: span 2;
 }
 
