@@ -65,13 +65,18 @@ nav {
 .logo-mark {
   width: 44px;
   height: 44px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--green), #6dbb69);
+  border-radius: 50%;
   display: grid;
   place-items: center;
-  color: white;
-  font-size: 22px;
+  overflow: hidden;
   box-shadow: 0 12px 28px rgba(31, 122, 63, 0.22);
+}
+
+.logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links {
@@ -286,7 +291,7 @@ section {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 0.95fr 1.05fr;
   gap: 50px;
   align-items: center;
 }
@@ -294,16 +299,12 @@ section {
 .about-img {
   height: 520px;
   border-radius: 34px;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 24px 60px rgba(9, 30, 25, 0.15);
-  overflow: hidden;
-}
-
-.about-img:not(:has(img)) {
   background:
     linear-gradient(rgba(13, 138, 106, 0.05), rgba(13, 138, 106, 0.35)),
     url('../img/kappaphycus_dripping_extraction.png?v=1.0.9');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 24px 60px rgba(9, 30, 25, 0.15);
 }
 
 .about-content h2 {
@@ -345,7 +346,7 @@ section {
   font-size: 14px;
 }
 
-.process, .partners, .pricing {
+.process {
   background: linear-gradient(180deg, #f7fbf8, #eaf7ee);
 }
 
@@ -361,7 +362,6 @@ section {
   padding: 28px;
   position: relative;
   overflow: hidden;
-  text-align: center;
 }
 
 .step-number {
@@ -369,20 +369,6 @@ section {
   font-weight: 900;
   color: rgba(31, 122, 63, 0.15);
   margin-bottom: 12px;
-}
-
-.partner-logo {
-  width: 100px;
-  height: 100px;
-  display: grid;
-  place-items: center;
-  margin: 0 auto 12px auto;
-}
-
-.partner-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
 
 .step h3 {
