@@ -341,7 +341,7 @@ section {
   font-size: 14px;
 }
 
-.process {
+.process, .partners {
   background: linear-gradient(180deg, #f7fbf8, #eaf7ee);
 }
 
