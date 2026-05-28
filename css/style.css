@@ -305,6 +305,7 @@ section {
   background-size: cover;
   background-position: center;
   box-shadow: 0 24px 60px rgba(9, 30, 25, 0.15);
+  position: relative;
 }
 
 .about-content h2 {
