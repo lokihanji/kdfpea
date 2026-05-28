@@ -295,8 +295,8 @@ section {
   height: 520px;
   border-radius: 34px;
   background:
-    linear-gradient(rgba(13, 138, 106, 0.05), rgba(13, 138, 106, 0.35)),
-    url('../img/kappaphycus_dripping_extraction.png?v=1.0.9');
+    linear-gradient(rgba(13, 138, 106, 0.02), rgba(13, 138, 106, 0.02)),
+    url('../img/poster/poster1.png?v=1.1.5');
   background-size: cover;
   background-position: center;
   box-shadow: 0 24px 60px rgba(9, 30, 25, 0.15);
